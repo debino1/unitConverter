@@ -1,25 +1,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="unit-container">
-            <h1>Metric/Imperial Unit Converter</h1> 
-            <input type="number" id="input-unit">
-            <button id="convert-btn"> Convert </button>
-        </div>
-        <div id="metric-container">
-            <div class="metrics">
-                <h3>Length (Meter/Feet)</h3>
-                <p id="length"></p>
+        <div id="container">
+            <div id="unit-container">
+                <h1>Metric/Imperial Unit Converter</h1> 
+                <input type="number" id="input-unit">
+                <button id="convert-btn"> Convert </button>
             </div>
-            <div class="metrics">
-                <h3>Volume (Litres/Gallons)</h3>
-                <p id="volume"></p>
-            </div>
-            <div class="metrics">
-                <h3>Mass (Kilograms/Pounds)</h3>
-                <p id="mass"></p>
+            <div id="metric-container">
+                <div class="metrics">
+                    <h3>Length (Meter/Feet)</h3>
+                    <p id="length" class="unitTxt"></p>
+                </div>
+                <div class="metrics">
+                    <h3>Volume (Litres/Gallons)</h3>
+                    <p id="volume" class="unitTxt"></p>
+                </div>
+                <div class="metrics">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p id="mass" class="unitTxt"></p>
+                </div>
             </div>
         </div>
         <script src="index.js"></script>
