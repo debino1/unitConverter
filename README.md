@@ -1,19 +1,29 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Unit Converter
+Easily convert numbers between various units with this simple tool.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+## Tech Used
+- HTML
+- CSS
+- JavaScript
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Features
+- Responsive layout
+- Unit categories
+- Real time conversion
+- Input validation
 
-Happy Coding!
+## Live Demo
+[unitconvtr.netlify.app](https://unitconvtr.netlify.app/)
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/7e29527d-47a3-47a0-9267-5b90f064c875)
+
+
+
+## What I Learned
+- Event listener
+- String templates
+- Arithmetic logic
+- toFixed for precision control
+
